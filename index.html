@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Soil Plant App</title>
+    <script src="script.js" defer></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Soil Data Input</h1>
+    <form id="soilForm">
+        <label for="pH">Soil pH:</label><br>
+        <input type="number" id="pH" name="pH" step="0.1" required><br><br>
+
+        <label for="moisture">Soil Moisture:</label><br>
+        <input type="number" id="moisture" name="moisture" step="1" required><br><br>
+
+        <button type="submit">Submit</button>
+    </form>
+    <div id="results"></div>
+</body>
+</html>
